@@ -1,0 +1,22 @@
+import React from "react";
+import "./Recomended.css";
+import Buttons from "../components/Buttons";
+
+const Recomended = ({handleClick}) => {
+  return (
+    <>
+      <div>
+        <h2 className="recommended-title">Recomended</h2>
+        <div className="recommended-flex">
+          <button className="btns" onClick={handleClick}>All Products</button>
+        <Buttons onClickHandler={handleClick} value="Nike" title="Nike" />
+        <Buttons onClickHandler={handleClick} value="Adidas" title="Adidas" />
+        <Buttons onClickHandler={handleClick} value="Puma" title="Puma" />
+        <Buttons onClickHandler={handleClick} value="Vans" title="Vans" />
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Recomended;
