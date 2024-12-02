@@ -1,9 +1,13 @@
 nav{
-justify-content: space-around;
+justify-content: space-evenly;
     display: flex;
     padding:  30px 0;
     align-items: center;
     border-bottom: 2px solid #f3f3f3;
+}
+
+.nav-container{
+    margin-left: 40px;
 }
 
 .nav-container input{
@@ -14,7 +18,7 @@ justify-content: space-around;
     margin-right: 20px;
     border-radius: 5px;
     position: relative;
-    width: 14rem;   
+    width: 34rem;   
 }
 
 .nav-icons{
