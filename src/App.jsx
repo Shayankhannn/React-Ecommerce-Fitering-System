@@ -9,6 +9,7 @@ import Sidebar from './Sidebar/Sidebar';
 import products from "./db/Db"
 // import Category from './Sidebar/Category/Category';
 import Card from './components/Card';
+import Detailed_Modal from './components/Detailed_Modal';
 
 const App = () => {
 
@@ -82,6 +83,7 @@ const result = filteredData(products,selectedCategory,query)
 <Nav query={query} handleInputChange={handleInputChange} />
 <Recomended handleClick={handleClick}/>
 <Product result={result}/>
+<Detailed_Modal/>
     </div>
   )
 }
