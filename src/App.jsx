@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Nav from './Navigation/Nav'
 import "./index.css";
 import Product from './Product/Product';
-import Recomended from './Recommended/Recomended';
+import Recommended from './Recommended/Recommended';
 import Sidebar from './Sidebar/Sidebar';
 
 // database
@@ -81,7 +81,7 @@ const result = filteredData(products,selectedCategory,query)
     <div>
       <Sidebar handleChange={handleChange}/>
 <Nav query={query} handleInputChange={handleInputChange} />
-<Recomended handleClick={handleClick}/>
+<Recommended handleClick={handleClick}/>
 <Product result={result}/>
 <Detailed_Modal/>
     </div>

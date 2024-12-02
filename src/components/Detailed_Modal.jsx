@@ -1,17 +1,18 @@
 import React, { Children } from 'react'
 
-const Detailed_Modal = ({children, isOpen, onClose}) => {
-const modalClose = ()=>{
-    console.log("he")
-}
+const Detailed_Modal = ({ children, isOpen, onClose }) => {
+
+  if(!isOpen){
+    return null;
+  }
 
   return (
     <div className='modalOverlay'>
-        <div className="modalContent">
-            <button className='modalClose_btn' onClick={modalClose}>X</button>
+      <div className="modalContent">
+        <button className='modalClose_btn' onClick={onClose}>X</button>
         {children}
-        
-        </div>
+
+      </div>
 
     </div>
   )

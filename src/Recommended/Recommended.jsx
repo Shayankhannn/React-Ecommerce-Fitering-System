@@ -1,12 +1,12 @@
 import React from "react";
-import "./Recomended.css";
+import "./Recommended.css";
 import Buttons from "../components/Buttons";
 
-const Recomended = ({handleClick}) => {
+const Recommended = ({handleClick}) => {
   return (
     <>
       <div>
-        <h2 className="recommended-title">Recomended</h2>
+        <h2 className="recommended-title">Recommended</h2>
         <div className="recommended-flex">
           <button className="btns" onClick={handleClick}>All Products</button>
         <Buttons onClickHandler={handleClick} value="Nike" title="Nike" />
@@ -19,4 +19,4 @@ const Recomended = ({handleClick}) => {
   );
 };
 
-export default Recomended;
+export default Recommended;
