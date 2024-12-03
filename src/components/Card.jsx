@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { IoBagHandleSharp } from "react-icons/io5";
 
-import Detailed_Modal from '../components/Detailed_Modal'
+import Detailed_Modal from '../Modal/Detailed_Modal'
 
 const Card = ({newPrice,img,title,prevPrice,star,reviews}) => {
 

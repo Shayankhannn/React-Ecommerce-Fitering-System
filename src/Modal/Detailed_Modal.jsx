@@ -1,4 +1,5 @@
 import React, { Children } from 'react'
+import { createPortal } from 'react-dom';
 
 const Detailed_Modal = ({ children, isOpen, onClose }) => {
 
@@ -6,7 +7,7 @@ const Detailed_Modal = ({ children, isOpen, onClose }) => {
     return null;
   }
 
-  return (
+  return createPortal(
     <div className='modalOverlay'>
       <div className="modalContent">
         <button className='modalClose_btn' onClick={onClose}>X</button>
@@ -14,7 +15,8 @@ const Detailed_Modal = ({ children, isOpen, onClose }) => {
 
       </div>
 
-    </div>
+    </div>,
+    document.getElementById('modalPortal')
   )
 }
 
