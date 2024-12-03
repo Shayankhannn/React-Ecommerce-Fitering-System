@@ -33,8 +33,27 @@ const Card = ({newPrice,img,title,prevPrice,star,reviews}) => {
 </div>
 </section>
 <Detailed_Modal isOpen={isOpenModal} onClose={closeModal}>
-<div className="modal-test">
-  <h1>testing</h1>
+<div className="detail-modal-content">
+ <div className="detail-modal-Img">
+ <img src={img} className='card-img' alt="" />
+ </div>
+ <div className="detail-modal-card-details">
+  <h3 className="card-title">{title}</h3>
+  <section className="card-reviews">
+  {star}{star}{star}{star} 
+  <span className="total-reviews">{reviews}</span>
+  </section>
+  <section className="detail-modal-card-price">
+    <div className="price">
+     <b>Price:</b>  <del>{prevPrice}</del> {newPrice}
+    </div>
+    <div className="detail-modal-detail">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi illo officia aut fuga quia nihil. Voluptatibus earum maxime non deleniti!</p>
+   
+    </div>
+ 
+  </section>
+</div>
 </div>
 </Detailed_Modal>
 </>
