@@ -9,7 +9,7 @@ import Sidebar from './Sidebar/Sidebar';
 import products from "./db/Db"
 // import Category from './Sidebar/Category/Category';
 import Card from './components/Card';
-import Detailed_Modal from './components/Detailed_Modal';
+import Detailed_Modal from './Modal/Detailed_Modal';
 
 const App = () => {
 
