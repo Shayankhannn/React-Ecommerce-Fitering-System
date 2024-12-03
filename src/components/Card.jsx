@@ -33,7 +33,9 @@ const Card = ({newPrice,img,title,prevPrice,star,reviews}) => {
 </div>
 </section>
 <Detailed_Modal isOpen={isOpenModal} onClose={closeModal}>
-<h1>testing</h1>
+<div className="modal-test">
+  <h1>testing</h1>
+</div>
 </Detailed_Modal>
 </>
   )

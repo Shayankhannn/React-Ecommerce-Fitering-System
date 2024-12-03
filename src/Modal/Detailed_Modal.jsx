@@ -15,7 +15,7 @@ const Detailed_Modal = ({ children, isOpen, onClose }) => {
 
   return createPortal(
     <div className='modalOverlay' onClick={handleOverlayClick}>
-      <div className="modalContent">
+      <div className="modal-content">
         <button className='modalClose_btn' onClick={onClose}>X</button>
         {children}
 
