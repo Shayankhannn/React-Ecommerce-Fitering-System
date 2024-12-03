@@ -38,5 +38,5 @@ const Card = ({newPrice,img,title,prevPrice,star,reviews}) => {
 </>
   )
 }
-
+// testing
 export default Card
