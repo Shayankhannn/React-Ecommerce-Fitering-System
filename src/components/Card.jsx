@@ -26,9 +26,11 @@ const Card = ({newPrice,img,title,prevPrice,star,reviews}) => {
     </div>
     <div className="bag">
     <IoBagHandleSharp className='bag-icon'/>
-    <button onClick={openModal}>view</button>
     </div>
- 
+ <div className="card-view-btn">
+    <button onClick={openModal}>Read More</button>
+
+ </div>
   </section>
 </div>
 </section>

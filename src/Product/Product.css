@@ -40,3 +40,11 @@ z-index: -2;
 .bag-icon {
     color: #535353;
   }
+
+  .card-view-btn button{
+    background: none;
+    color: orange;
+    border: none;
+    cursor: pointer;
+    
+  }

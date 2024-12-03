@@ -35,3 +35,6 @@ padding: 60px;
     display: flex;
     align-items: center;
 }
+.detail-modal-detail{
+    padding: 10px 0;
+}
