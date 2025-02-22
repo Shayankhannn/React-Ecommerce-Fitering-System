@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import "/product.css"
+import "./product.css"
 
 
 const Product = ({result}) => {
