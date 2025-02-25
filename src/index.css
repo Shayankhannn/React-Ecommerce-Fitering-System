@@ -6,7 +6,7 @@
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 7px;
 }
 
 ::-webkit-scrollbar-track {
@@ -15,6 +15,7 @@
 
 ::-webkit-scrollbar-thumb {
   background: #888;
+  border-radius: 20px;
 }
 
 a {
