@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import "./product.css"
+import "./Product.css"
 
 
 const Product = ({result}) => {
@@ -16,6 +16,6 @@ const Product = ({result}) => {
     </div>
   )
 }
-//test
+
 
 export default Product
